@@ -1,0 +1,50 @@
+// Enums
+enum myEnum
+enumval myEnum value1 1
+enumval myEnum value2 2
+
+// Types
+objtype string 2
+intf MyIntf
+typedef myFloat "float"
+funcdef "void Callback(int, int)"
+
+// Type members
+objbeh string 1 "void _beh_1_()"
+objbeh string 0 "void _beh_0_()"
+objmthd string "string& opAssign(const string&in)"
+objmthd string "string& opAddAssign(const string&in)"
+objmthd string "bool opEquals(const string&in) const"
+objmthd string "int opCmp(const string&in) const"
+objmthd string "string opAdd(const string&in) const"
+objmthd string "uint length() const"
+objmthd string "void resize(uint)"
+objmthd string "uint8& opIndex(uint)"
+objmthd string "const uint8& opIndex(uint) const"
+objmthd string "string& opAssign(double)"
+objmthd string "string& opAddAssign(double)"
+objmthd string "string opAdd(double) const"
+objmthd string "string opAdd_r(double) const"
+objmthd string "string& opAssign(int)"
+objmthd string "string& opAddAssign(int)"
+objmthd string "string opAdd(int) const"
+objmthd string "string opAdd_r(int) const"
+objmthd string "string& opAssign(uint)"
+objmthd string "string& opAddAssign(uint)"
+objmthd string "string opAdd(uint) const"
+objmthd string "string opAdd_r(uint) const"
+objmthd string "string& opAssign(bool)"
+objmthd string "string& opAddAssign(bool)"
+objmthd string "string opAdd(bool) const"
+objmthd string "string opAdd_r(bool) const"
+intfmthd MyIntf "void func() const"
+
+// Functions
+func "void Print(const string &in)"
+
+// Properties
+prop "float f"
+prop "const float myConst"
+
+// String factory
+strfactory "string"
